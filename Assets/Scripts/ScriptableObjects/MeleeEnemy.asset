@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ec47a19fa5c3534b8336b01d19d8bd9, type: 3}
+  m_Name: MeleeEnemy
+  m_EditorClassIdentifier: 
+  straightDirection: 1
+  diagonalDirection: 0
+  canAttackOverBlock: 0
+  damageIcon: {fileID: 2469744704607567990, guid: 6e74ce550a8b75a44bdbad5edf7272a4,
+    type: 3}
+  deathEffect: {fileID: 6468521233863081126, guid: c26dddbdfeb0c3e4da9c0576fa90efe7,
+    type: 3}
+  hp: 10
+  armor: 0
+  damage: 5
+  turnSpeed: 1
+  attackRange: 1
+  attackRangeMin: 0
+  neighbourDirections: 1
